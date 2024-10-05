@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7e464cca7d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div style="background-image: linear-gradient(to bottom, #222222, rgba(21, 21, 21, 0.5)), url('./assets/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00), url('./assets/bg1.jpg')] bg-no-repeat bg-center bg-cover min-h-screen">
+
+        <header class="container mx-auto">
+            <nav class="flex items-center justify-between py-4 mx-3 lg:mx-0">
+                <h1 class="text-4xl font-semibold font-serif text-orange-400">PraRoz</h1>
+                
+                <div class="sm:hidden text-white">
+                    <i class="fa fa-bars text-2xl cursor-pointer"></i>
+                </div>
+
+                <ul class="hidden sm:flex items-center gap-8 text-gray-200 font-semibold">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="hidden md:flex items-center">
+                    <input class="p-2 border-none rounded-l-md outline-0" type="email" placeholder="Type a email">
+                    <button class="bg-orange-400 rounded-r-md border-none px-5 py-2">Submit</button>
+                </div>
+            </nav>
+        </header>
+        <!-- hero section  -->
+        <section class="flex flex-col md:flex-row min-h-[calc(100vh-72px)] justify-between items-center mt-10 md:mt-0 container mx-auto font-semibold">
+            <div class="text-gray-200 flex-1 mx-3 lg:mx-0 mb-10 md:md-0">
+                <h1 class="text-3xl font-bold">Web Design & <br /> <span
+                        class="text-4xl text-orange-500">Development</span>
+                    <br /> <span class="text-2xl">Course</span>
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta assumenda quas iste, laboriosam quos
+                    iure expedita mollitia possimus officia praesentium aut corrupti molestiae eos repellat, harum
+                    laudantium. Quis, quod obcaecati.</p>
+                <button class="bg-orange-500 px-8 py-3 text-lg font-medium rounded mt-5 text-black">Hire Me</button>
+            </div>
+
+            <div class="flex-1 mx-3 lg:mx-0 mb-10 md:mb-0">
+                <div class="max-w-sm ms-auto bg-black/40 backdrop-blur-lg p-4 rounded-xl text-white py-6">
+                    <form class="w-full flex flex-col justify-center">
+                        <h3 class="text-2xl text-center bg-white text-orange-400 rounded py-2">Please Login</h3>
+                        <div class="space-y-5">
+                            <label for="email"></label>
+                            <input class="border-b w-full py-2 px-1 bg-transparent outline-none" type="email"
+                                name="email" id="email" placeholder="Enter Email Here">
+
+                            <label for="email"></label>
+                            <input class="border-b w-full py-2 px-1 bg-transparent outline-none" type="email"
+                                name="email" id="email" placeholder="Enter Email Here">
+                        </div>
+                        <button class="text-xl text-neutral-900 bg-orange-500 py-2 rounded-lg w-full mt-5">Login</button>
+                    </form>
+                    <p class="text-center my-4">Don't have an account? <br />
+                        <span class="text-orange-400">
+                            <a href="#">Sign Up</a>
+                        </span> here
+                    </p>
+                    <div class="space-x-3 text-center">
+                        <p class="mb-1">Login with</p>
+                        <i class="fa-brands fa-facebook text-2xl cursor-pointer"></i>
+                        <i class="fa-brands fa-instagram text-2xl cursor-pointer"></i>
+                        <i class="fa-brands fa-twitter text-2xl cursor-pointer"></i>
+                        <i class="fa-brands fa-google text-2xl cursor-pointer"></i>
+                        <i class="fa-brands fa-skype text-2xl cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
